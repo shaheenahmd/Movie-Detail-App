@@ -1,0 +1,10 @@
+.list_cards{
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+
+.list_title{
+    padding-top: 120px;
+}

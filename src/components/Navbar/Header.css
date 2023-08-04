@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(70, 5, 5);
+    color: white;
+    position:fixed !important;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-toggler {
+   background-color: white !important;
+}

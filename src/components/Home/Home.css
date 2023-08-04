@@ -1,0 +1,69 @@
+
+.poster-image{
+    height: 90vh;
+    position: relative;
+}
+
+    
+
+.poster-image img{
+    object-fit: cover;
+    background-position: center;
+}
+    
+
+.posterImageLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.posterImageLayer .details{
+    text-align: start;
+    max-width: 700px;
+    position: absolute;
+    padding: 0px 100px;
+    bottom: 50px;
+}
+
+
+.poster-title h1{
+    font-size: 58px;
+    font-weight: 700;
+}
+.poster-overview p{
+    font-size: 14px;
+    color: azure;
+}
+
+
+@media screen and (max-width:768px){
+
+    .poster-image{
+        height: unset;
+        
+    }
+    .posterImageLayer .details{
+        padding: 0px 50px;
+    bottom: 10px;
+
+    }
+    .poster-title h1{
+        font-size: 28px;
+        
+    }
+
+    .poster-overview p{
+        display: none;
+    }
+
+    .carousel .control-dots {
+        display: none;
+    }
+}
