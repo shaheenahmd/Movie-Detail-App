@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(70, 5, 5);
+    background-color: #000814;
     color: white;
     position:fixed !important;
     width: 100%;
@@ -12,6 +12,14 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+    .navbar-brand{
+        font-size: 25px !important;
+
+    } 
+}
+
 
 .nav-link{
     color: white !important;
