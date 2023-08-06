@@ -56,8 +56,8 @@ const Home = () => {
                   <p>{movie ? movie.release_date: ""}</p>
                 </div>
                 
-                <div className="voting d-flex">
-                  <p>Rating: {movie ? movie.vote_average: ""} <i class="fa-solid fa-star"></i></p>
+                <div className="d-flex">
+                  <p className="voting">Rating: {movie ? movie.vote_average: ""} <i class="fa-solid fa-star"></i></p>
                   
                 </div>
               
