@@ -42,7 +42,7 @@ const MovieList = () => {
       
           <div className="row list_cards pt-4 d-flex align-item-center text-center">
             {movieList.map((movie)=>(
-              <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 align-item-center">
+              <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-10 align-item-center">
                <Card movie={movie}/>
                </div>
               ))}
