@@ -89,7 +89,7 @@
         display: none;
     }
     .posterImageLayer .voting{
-        display: none;
+        margin-bottom: 40px;
        
     }
 }
