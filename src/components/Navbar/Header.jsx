@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Header.css";
 
 import Container from "react-bootstrap/Container";
@@ -8,9 +8,16 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+
+  const [isNavbarCollapsed, setIsNavbarCollapsed] = useState(true);
+
+  const handleNavbarToggle = () => {
+    setIsNavbarCollapsed(!isNavbarCollapsed);
+  };
+
   return (
     <div>
-      <Navbar expand="lg" className="navbar">
+      <Navbar collapseOnSelect expand="lg" className="navbar">
         <Container>
           <Navbar.Brand>
             <Link className="navbar-brand" to={"/"}>
