@@ -74,7 +74,7 @@
     }
     .posterImageLayer .details{
         padding: 0px 50px;
-    bottom: 60px;
+        bottom: 80px;
 
     }
     .poster-title h1{
@@ -89,7 +89,7 @@
         display: none;
     }
     .posterImageLayer .voting{
-        margin-bottom: 25px !important;
+        display: none;
        
     }
 }
