@@ -15,9 +15,10 @@ const Header = () => {
     setIsNavbarCollapsed(!isNavbarCollapsed);
   };
 
+
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="navbar">
+      <Navbar collapseOnSelect expand="lg" className="navbar" >
         <Container>
           <Navbar.Brand>
             <Link className="navbar-brand" to={"/"}>

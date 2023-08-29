@@ -12,6 +12,9 @@ const Card = ({ movie }) => {
     }, 1500);
   }, []);
 
+  const handleClick = ()=>{
+    window.scrollTo(0, 0);
+  }
   return (
     <>
       {isloading ? (
@@ -21,7 +24,7 @@ const Card = ({ movie }) => {
           </SkeletonTheme>
         </div>
       ) : (
-        <Link
+        <Link onClick={handleClick}
           to={`/movie/${movie.id}`}
           style={{ textDecoration: "none", color: "white" }}
         >

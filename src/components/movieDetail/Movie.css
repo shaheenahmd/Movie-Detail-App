@@ -28,6 +28,7 @@
     object-fit:cover;
     object-position: 0 35%;
     border-radius: 15px;
+    object-position: center;
 
 }
 
